@@ -1,0 +1,53 @@
+{
+	"Name": "BRK Flat",
+	"Description": "Created by: RainlessSky",
+	"MapSize": [ 256, 64, 768 ],
+
+	"SkyboxType": "space",
+	"TeamSpawns": [
+		{
+			"GameMode": "all",
+			"Team": "0",
+		  	"Type": "free"
+		},
+	  	{
+			"GameMode": "all",
+			"Team": "1",
+			"Type": "free"
+	  	} 
+	],
+	"LinearZones": [
+		{
+			"Type": "box",
+			"Min": [ 0, 0, 164 ],
+			"Max": [ 256, 20, 203 ]
+		},
+		{
+			"Type": "box",
+			"Min": [ 0, 0, 264 ],
+			"Max": [ 256, 20, 303 ]
+		},
+		{
+			"Type": "box",
+			"Min": [ 0, 0, 364 ],
+			"Max": [ 256, 20, 403 ]
+		},
+		{
+			"Type": "box",
+			"Min": [ 0, 0, 464 ],
+			"Max": [ 256, 20, 503 ]
+		},
+		{
+			"Type": "box",
+			"Min": [ 0, 0, 564 ],
+			"Max": [ 256, 2, 603 ]
+		}
+	],
+	"BlockTexturesV2":
+	[
+		{
+			"Index": 1,
+			"Name": "concrete"
+		}
+	]
+}
